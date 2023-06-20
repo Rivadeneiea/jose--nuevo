@@ -5,6 +5,11 @@
   font-family: sans-serif;
 }
 
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -41,6 +46,11 @@ body {
 .time span.ms-colon,
 .time span.millisecond {
   color: blueviolet;
+}
+
+.wrapper .buttons {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .buttons button {
